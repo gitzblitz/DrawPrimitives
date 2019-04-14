@@ -12,8 +12,8 @@ class Drawing(context: Context?) : View(context) {
 
     override fun draw(canvas: Canvas?) {
         brush = Paint(Paint.ANTI_ALIAS_FLAG)
-        brush.color = Color.parseColor("green")
-        canvas?.drawCircle((measuredWidth/2).toFloat(), (measuredHeight/2).toFloat(), 24f, brush)
+        brush.color = Color.parseColor("red")
+        canvas?.drawCircle((measuredWidth/2).toFloat(), (measuredHeight/2).toFloat(), 69f, brush)
 
         canvas?.save()
         super.draw(canvas)
