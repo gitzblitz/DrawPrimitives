@@ -14,9 +14,9 @@ class Drawing(context: Context?) : View(context) {
 
     override fun draw(canvas: Canvas?) {
 
-        val bitmap = BitmapFactory.decodeResource(resources, R.drawable.lol)
-
-        canvas?.drawBitmap(bitmap, (measuredWidth/2).toFloat() - (bitmap.width/2), (measuredHeight/2).toFloat() -(bitmap.height/2), null)
+//        val bitmap = BitmapFactory.decodeResource(resources, R.drawable.lol)
+//
+//        canvas?.drawBitmap(bitmap, (measuredWidth/2).toFloat() - (bitmap.width/2), (measuredHeight/2).toFloat() -(bitmap.height/2), null)
 
 //        brush = Paint(Paint.ANTI_ALIAS_FLAG)
 //        lineBrush = Paint(Paint.ANTI_ALIAS_FLAG)

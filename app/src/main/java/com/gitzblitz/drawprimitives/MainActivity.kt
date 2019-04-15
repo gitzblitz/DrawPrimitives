@@ -9,11 +9,12 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val drawing  = Drawing(this)
+        val customTextView = CustomTextView(this, null)
 
         drawing.setOnClickListener {
 
             Toast.makeText(this, "hello there", Toast.LENGTH_LONG).show()
         }
-        setContentView(drawing)
+        setContentView(customTextView)
     }
 }
